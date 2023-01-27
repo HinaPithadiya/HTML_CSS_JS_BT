@@ -1,0 +1,115 @@
+
+.header-logo img
+{
+	margin-top: 106px;
+	height: 58px;
+}
+.left
+{
+	float:left;
+}
+.mycontainer
+{
+	height:720px;
+	width:100%;
+	background-color: #FAFAFA;
+}
+.myrow
+{
+	height:720px;
+	width:1560px;
+}
+.hero-img-height img
+{
+	border-radius: 50%;
+	margin-top: 72px;
+	margin-left: 166px;
+	width:567px;
+	height:567px;
+}
+button
+{
+	background-color: #C8242F;
+	height: 45px;
+	width:138px;
+	color:white;
+	font-size: 15px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 25px;
+	border:none;
+}
+.margin1
+{
+	margin-top: 20px;
+}
+.heading
+{
+	color:#3E3E3E;
+	height: 100px;
+	width: 500px;
+	padding-top: 15px;
+}
+.fix
+{
+	clear: both;
+}
+.right
+{
+	float:right;
+}
+.link_btn
+{
+	color: #ADADAD;
+}
+a
+{
+	text-decoration: none;
+}
+span
+{
+	color: #C8242F;
+	font-size: larger;
+	font-weight: bold;
+}
+input
+{
+	height: 49px;
+	width:429px;
+	margin-top: 20px;
+}
+.login_detail
+{
+	height: 33px;
+	width: 260px;
+	font-weight:500;
+	padding-top: 15px;
+	color: #3E3E3E;
+	font-size: 20px;
+	margin-bottom: 13px;
+}
+.margin2
+{
+	margin-top: 15px;
+	color:#ADADAD;
+}
+.margin_
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.hero-img-height
+{
+	margin-right: 95px;
+}
+.color
+{
+	color:#C8242F;
+}
+.margin3
+{
+	margin-top: 48px;
+	color : #ADADAD;
+}
