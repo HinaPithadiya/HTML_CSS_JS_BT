@@ -1,0 +1,155 @@
+.main{
+    width: 1560px;
+    height: 1359px;
+}
+
+.nav{
+    width: 1560px;
+    height: 80px;
+}
+
+#menu{
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    height: 18px;
+    width: 27px;
+    display: inline;
+}
+
+#hlogo{
+    position: absolute;
+    top: 25px;
+    left: 72px;
+    height: 30px;
+    width: 142px;
+    display: inline;
+}
+
+#searchicon{
+    position: absolute;
+    top: 32px;
+    left: 291px;
+    height: 16px;
+    display: inline;
+}
+
+#search{
+    position: absolute;
+    top: 12px;
+    left: 321px;
+    font-family: 'Segoe UI';
+    display: inline;
+}
+
+#noticon{
+    position: absolute;
+    top: 28px;
+    left: 1294px;
+    width: 22px;
+    height: 21px;
+}
+
+#profile{
+    position: absolute;
+    top: 18px;
+    left: 1368px;
+    width: 44px;
+    height: 44px;
+}
+.drop-down
+{
+    position: absolute;
+    top:27.68px;
+    right:68px;
+    height:21px;
+    width:90px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+}
+.right
+{
+    justify-content: center;
+}
+.sidebar ul li
+{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.sidebar
+{
+    width:242px;
+}
+.sidebar ul
+{
+    padding-left: 6px;
+}
+#sidebartext
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+   
+}
+.sidebar ul li a img
+{
+    padding-right: 12.5px;
+}
+
+.sidebar ul li a
+{
+    padding-right: 35px;
+}
+#sideicon
+{
+    top: 122px;
+    left: 48px;
+    width: 20px;
+    height: 20px;
+}
+.left
+{
+    float:left;
+}
+.content
+{
+    background-color: #FAFAFA;
+    padding:30px;
+}
+.content h1
+{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -10px
+}
+.form
+{
+    background-color: white;
+  
+}
+.form-control
+{
+    width: 1157px;
+    height:49px;
+}
+.two_column
+{
+    height:49px;
+    width:563px;
+}
+.three_column
+{
+    height:47px;
+    width: 364px;
+}
+.four_column
+{
+    height: 47px;
+    width: 266px;
+}
+.snackbar
+{
+    height:49px;
+    width:563px;
+    display: block;
+    margin-left: 20px;
+}
