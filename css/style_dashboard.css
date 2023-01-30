@@ -1,3 +1,7 @@
+.fix
+{
+    clear: both;
+}
 .main{
     width: 1560px;
     height: 1359px;
@@ -115,7 +119,7 @@ input
 {
     list-style-type: none;
 }
-.sidebar ul li a .dashboard :hover
+.sidebar ul li a:hover
 {
     /*background-image:url(../images/dashboard-active.svg);*/
 }
@@ -168,10 +172,13 @@ a:hover
 .content h1
 {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: -10px
 }
 h2
 {
     font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    padding-bottom: 20px;
 }
 .dashboard_show
 {
@@ -194,6 +201,7 @@ h2
 .margin-left
 {
     margin-left: 30px;
+    margin-top: 7px;
 }
 .dashboard_1
 {
@@ -203,14 +211,14 @@ h2
 {
     background-color: white;
     width:802px;
-    height:400px;
+    height:420px;
 }
 .pie-chart
 {
     background-color: white;
     padding:40px;
     padding-top: 10px !important;
-    height: 320px;
+    height: 300px;
     width: 320px;
 }
 h2
@@ -243,10 +251,19 @@ table
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    border-collapse: collapse;
 }
 tr th
 {
     color:#ADADAD;
+}
+tr td
+{
+    height:50px;
+}
+tr th
+{
+    height:50px;
 }
 th, td
 {
@@ -258,6 +275,7 @@ th, td
     background-color: #C8242F;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 10px;
 }
 .dot2{
     height: 18px;
@@ -265,6 +283,7 @@ th, td
     background-color: #A2B86C;
     border-radius: 50%;
     display: inline-block;
+     margin-right: 10px;
 }
 .dot3{
     height: 18px;
@@ -272,6 +291,7 @@ th, td
     background-color: #F16C20;
     border-radius: 50%;
     display: inline-block;
+     margin-right: 10px;
 }
 .dot4{
     height: 18px;
@@ -279,4 +299,78 @@ th, td
     background-color: #EBC844;
     border-radius: 50%;
     display: inline-block;
+     margin-right: 10px;
+}
+.invoice
+{
+    font-family: 'Roboto', sans-serif;
+}
+.font-decor
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+.menu1 ul li a
+{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.menu1 ul li a:hover
+{
+    border-bottom: 1px solid red;   
+}
+.pie-chart-text
+{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.invoice
+{
+    margin-left:0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    background-color: white;
+}
+.bc-color
+{
+    background-color: white;
+    margin-top: 25px;
+}
+.color
+{
+    color:red;
+    font-size: 15px;
+    padding-right: 20px;
+}
+.paid
+{
+    color:#3CDD5F;
+    width:90px;
+    height: 26px;
+    background-color: #EBFFEF;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.failed
+{
+    width:50px;
+    height: 26px;
+    color:#FF4545;
+    background-color: #FFF5F5;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.pending
+{
+    width:50px;
+    height: 26px;
+    color:#BABABA;
+    background-color: #F8F8F8;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+th
+{
+    letter-spacing: 2px;
 }

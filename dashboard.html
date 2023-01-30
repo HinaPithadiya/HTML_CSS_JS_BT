@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style_dashboard.css">
+   <!--  <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src="js/dashboard.js"></script> -->
     <title>Dashboard</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
@@ -15,7 +17,7 @@
             <img src="images/header-logo.svg" id="hlogo">
             <img src="images/search-icon.svg" id="searchicon">
             <p id="search"><input type="search" name="search" placeholder="Search"></p>
-            <img src="images/notification-icon.svg" id="noticon">
+            <a href=""><img src="images/notification-icon.svg" id="noticon"></a>
             <img src="images/profile.png" id="profile">
             <select class="right drop-down">
                 <option>John Doe</option>
@@ -26,7 +28,7 @@
 
         <div class="sidebar left" >
             <ul>
-                <li><a href=""><img class="dashboard" id="sideicon" src="images/dashboard-default.svg"><span id="sidebartext">Dashboard</span></a></li>
+                <li><a href=""><img class="dashboard" id="sideicon" src="images/dashboard-default.svg" onmouseover="hover(this);"><span id="sidebartext">Dashboard</span></a></li>
     
                 <li><a href=""><img class="analysis" id="sideicon" src="images/graph-default.svg"><span id="sidebartext">Analysis</span></a></li>
 
@@ -49,7 +51,7 @@
                     <div class="justify">
                         <div class="left margin-left"><img src="images/star.svg"></div>
                         <div class="right">
-                            <span>23,456</span><br>
+                            <span class="font-decor">23,456</span><br>
                             <span>New Products</span>
                         </div>
                     </div>
@@ -59,7 +61,7 @@
                     <div class="justify">
                         <div class="left margin-left"><img src="images/new-product.svg"></div>
                         <div class="right">
-                            <span>2345</span><br>
+                            <span class="font-decor">2345</span><br>
                             <span>Added Products</span>
                         </div>
                     </div>
@@ -69,7 +71,7 @@
                     <div class="justify total-product">
                         <div class="left margin-left"><img src="images/total-product.svg"></div>
                         <div class="right">
-                            <span>32,456</span><br>
+                            <span class="font-decor">32,456</span><br>
                             <span>Total Products</span>
                         </div>
                     </div>
@@ -79,7 +81,7 @@
                     <div class="justify">
                         <div class="left margin-left"><img src="images/dollar-filled.svg"></div>
                         <div class="right">
-                            <span>5678</span><br>
+                            <span class="font-decor">5678</span><br>
                             <span>Today's Sale</span>
                         </div>
                     </div>
@@ -89,7 +91,7 @@
                     <div class="justify">
                         <div class="left margin-left"><img src="images/money-bag.svg"></div>
                         <div class="right">
-                            <span>33,5342</span><br>
+                            <span class="font-decor">33,5342</span><br>
                             <span>Total Sale</span>
                         </div>
                     </div>
@@ -100,7 +102,7 @@
 
             <div class="justify">
                 <div class="left margin menu1">
-                    <h2 class="left">Sale</h2>
+                    <h2 class="left ">Sale</h2>
                     <ul class="right">
                         <li>
                             <a href="">Weekly</a>
@@ -120,23 +122,26 @@
                  <div class="left margin margin2"> 
                     <h2>Sales by Country</h2>
                     <div class="pie-chart">  
-                        <img src="images/pie-chart.svg">
+                        <center><img src="images/pie-chart.svg"></center>
                         <div class="menu2">
-                            <ul class="left">
-                                <span class="dot1"></span><li>United States of America</li><br>
-                                <span class="dot2"></span><li>Russia</li><br>
-                            </ul>
-                            <ul class="right">
-                                <span class="dot3"></span><li>Canada</li><br>
-                                <span class="dot4"></span><li>India</li>
-                            </ul>
+                            <div class="left">
+                                <span class="dot1 left"></span><div class="left pie-chart-text">United States of America</div><br>
+                                <span class="dot3 left"></span><div class="left pie-chart-text">Russia</div><br>
+                            </div>
+                            <div class="right left">
+                                <span class="dot2 left"></span><div class="left pie-chart-text">Canada</div><br>
+                                <span class="dot4 left"></span><div class="left pie-chart-text">India</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+           <div class="fix"></div>
             <div>
-                <h3>Invoices</h3>
+                <div class="bc-color">
+                     <h2 class="invoice">Invoice</h2>
+                     <a href=""><span class="invoice right color"> View All</span></a>
                     <table>
                         <tr>
                             <th>INVOICE</I></th>
@@ -151,7 +156,7 @@
                             <td>Public Adjusting Firm</td>
                             <td>georgia.young@example.com</td>
                             <td>24 May, 2020</td>
-                            <td>Paid</td>
+                            <td class="paid">Paid</td>
                             <td>$47,800</td>
                         </tr>
                         <tr>
@@ -159,7 +164,7 @@
                             <td>Other</td>
                             <td>jessica.hanson@example.com</td>
                             <td>24 May, 2020</td>
-                            <td>Paid</td>
+                            <td class="paid">Paid</td>
                             <td>$98,000</td>
                         </tr>
                         <tr>
@@ -167,7 +172,7 @@
                             <td>Vendor</td>
                             <td>alma.lawson@example.com</td>
                             <td>8 sep, 2020</td>
-                            <td>Paid</td>
+                            <td class="paid">Paid</td>
                             <td>$20,900</td>
                         </tr>
                         <tr>
@@ -175,7 +180,7 @@
                             <td>Property Management Company</td>
                             <td>kenzi.lawson@example.com</td>
                             <td>22 oct, 2020</td>
-                            <td>Paid</td>
+                            <td class="paid">Paid</td>
                             <td>$10,570</td>
                         </tr>
                         <tr>
@@ -183,7 +188,7 @@
                             <td>Subcontractor Company</td>
                             <td>jackson.graham@example.com</td>
                             <td>1 feb, 2020</td>
-                            <td>Failed</td>
+                            <td class="failed">Failed</td>
                             <td>$10,200</td>
                         </tr>
                         <tr>
@@ -191,7 +196,7 @@
                             <td>Mortgage Company</td>
                             <td>felicia.reis@example.com</td>
                             <td>22 oct, 2020</td>
-                            <td>Pending</td>
+                            <td class="pending">Pending</td>
                             <td>$12,600</td>
                         </tr>
                         <tr>
@@ -199,7 +204,7 @@
                             <td>TPA</td>
                             <td>dolores.chambers@example.com</td>
                             <td>21 sep, 2020</td>
-                            <td>Paid</td>
+                            <td class="paid">Paid</td>
                             <td>$11,170</td>
                         </tr>
                         <tr>
@@ -207,7 +212,7 @@
                             <td>Fire Department</td>
                             <td>nevaeh.simmons@example.com</td>
                             <td>17 oct, 2020</td>
-                            <td>Failed</td>
+                            <td class="failed">Failed</td>
                             <td>$28,000</td>
                         </tr>
                         <tr>
@@ -215,7 +220,7 @@
                             <td>Insurance Carrier</td>
                             <td>curtis.weaver@example.com</td>
                             <td>21 sep, 2020</td>
-                            <td>Paid</td>
+                            <td class="paid">Paid</td>
                             <td>$10,000</td>
                         </tr>
                     </table>
