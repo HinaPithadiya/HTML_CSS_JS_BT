@@ -67,6 +67,8 @@ input
 .right
 {
     float:right;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 .drop-down
@@ -153,4 +155,128 @@ a:hover
 .left
 {
     float:left;
+}
+.right
+{
+    justify-content: center;
+}
+.content
+{
+    background-color: #FAFAFA;
+    padding:30px;
+}
+.content h1
+{
+    font-family: 'Roboto', sans-serif;
+}
+h2
+{
+    font-family: 'Roboto', sans-serif;
+}
+.dashboard_show
+{
+    width:219.4px;
+    height:116px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 31px;
+    margin-bottom: 33px;
+    align-content: center;
+    margin-right: 32px;
+    display:inline-flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.justify
+{
+    padding-top: 30px;
+}
+.margin-left
+{
+    margin-left: 30px;
+}
+.dashboard_1
+{
+    margin-right:20px;
+}
+.data-graph
+{
+    background-color: white;
+    width:802px;
+    height:400px;
+}
+.pie-chart
+{
+    background-color: white;
+    padding:40px;
+    padding-top: 10px !important;
+    height: 320px;
+    width: 320px;
+}
+h2
+{
+    background-color: white;
+    margin-bottom: 0px;
+}
+.margin
+{
+    margin-left:20px;
+}
+.margin ul li
+{
+    display:inline-block;
+}
+.margin2
+{
+    background-color: white;
+}
+.total-product img
+{
+    height: 40px;
+}
+table
+{
+    width:100%;
+    text-align: left;
+    background-color: white;
+    color:#3E3E3E;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+tr th
+{
+    color:#ADADAD;
+}
+th, td
+{
+    border-bottom: 1px solid #E9E9E9;
+}
+.dot1{
+    height: 18px;
+    width: 18px;
+    background-color: #C8242F;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2{
+    height: 18px;
+    width: 18px;
+    background-color: #A2B86C;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3{
+    height: 18px;
+    width: 18px;
+    background-color: #F16C20;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot4{
+    height: 18px;
+    width: 18px;
+    background-color: #EBC844;
+    border-radius: 50%;
+    display: inline-block;
 }
