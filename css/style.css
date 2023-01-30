@@ -4,29 +4,35 @@
 	margin-top: 106px;
 	height: 58px;
 }
+
 .left
 {
 	float:left;
 }
+
 .mycontainer
 {
 	height:720px;
 	width:100%;
 	background-color: #FAFAFA;
 }
+
 .myrow
 {
 	height:720px;
 	width:1560px;
 }
+
 .hero-img-height img
 {
+	border:25px solid white;
 	border-radius: 50%;
 	margin-top: 72px;
 	margin-left: 166px;
 	width:567px;
 	height:567px;
 }
+
 button
 {
 	background-color: #C8242F;
@@ -41,10 +47,12 @@ button
 	border-radius: 25px;
 	border:none;
 }
-.margin1
+
+.btn_margin
 {
 	margin-top: 20px;
 }
+
 .heading
 {
 	color:#3E3E3E;
@@ -52,6 +60,7 @@ button
 	width: 500px;
 	padding-top: 15px;
 }
+
 .fix
 {
 	clear: both;
@@ -90,7 +99,7 @@ input
 	font-size: 20px;
 	margin-bottom: 13px;
 }
-.margin2
+.register_margin
 {
 	margin-top: 15px;
 	color:#ADADAD;
@@ -102,13 +111,13 @@ input
 }
 .hero-img-height
 {
-	margin-right: 95px;
+	margin-right: 120px;
 }
 .color
 {
 	color:#C8242F;
 }
-.margin3
+.fp_margin
 {
 	margin-top: 48px;
 	color : #ADADAD;
