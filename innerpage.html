@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="css/style_dashboard.css"> -->
     <link rel="stylesheet" type="text/css" href="css/style_innerpage.css">
    <!--  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <title>Innerpage</title>
-     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
 <body>
@@ -51,18 +50,18 @@
                 <form class="form">
                     <h3>One Column</h3>
                     <input type="text" name="name" class="form-control" placeholder="Name"><br>
-                    <select class="right form-control">
+                    <select class="right form-control drop-down1">
                         <option>John Doe</option>
                         <option>My Profile</option>
                         <option>Log Out</option>
                     </select><br>
-                    <input type="text" name="multiple_line" class="form-control"  placeholder="Multiple line"><br>
+                    <textarea type="multiple" name="multiple_line" class="form-control multiple_line" style="height:130px;"  placeholder="Multiple line" ></textarea><br>
                     
                     <h3>Two Column</h3>
                     <input type="name" name="" class="two_column left" placeholder="Name">
                     <input type="username" name="" class="two_column right" placeholder="Username"><br>
                     <input type="password" name="" class="two_column left" placeholder="Password">
-                    <select class="right two_column">
+                    <select class="right two_column drop-down1">
                         <option>John Doe</option>
                         <option>My Profile</option>
                         <option>Log Out</option>
@@ -77,63 +76,48 @@
                     <input type="designation" name="designation" class="four_column"placeholder="Designatin" >
                     <input type="name" name="name" class="four_column" placeholder="Name" >
                     <input type="username" name="username" disabled="" class="four_column" placeholder="Username">
-                    <select class="right four_column">
+                    <select class="right four_column drop-down1">
                         <option>John Doe</option>
                         <option>My Profile</option>
                         <option>Log Out</option>
                     </select><br>
 
                     <h3>Other Design Elements</h3>
-                    <input type="file" name="">
+                    <button class="btn2"><img src="images/cloud-upload-icon.svg"></a> Upload</button><span class="fileupload">No item Selected</span>
 
                     <h3>Radio Button</h3>
                     <input type="Radio" name="rbt_btn">Option 1
                     <input type="Radio" name="rbt_btn">Option 2
 
                     <h3>Checkbox</h3>
-                    <input type="Checkbox" name="">Option 1
-                    <input type="Checkbox" name="">Option 2
+                    <input type="Checkbox" class="checkbox"  name="">Option 1
+                    <input type="Checkbox" class="checkbox" name="">Option 2
 
                     <h3>Snackbar</h3>
-                    <div class="snackbar two_column left"><img src="images/error-icon.svg" height="20" width="20"><span>This is an error Message</span></div>
-                    <div class="snackbar two_column left"><img src="images/info-icon.svg" height="20" width="20"><span>This is an Information Message</span></div><br>
-                    <div class="snackbar two_column left"><img src="images/warning-icon.svg" height="20" width="20"><span>This is a Warning Message</span></div>
-                    <div class="snackbar two_column left"><img src="images/success-icon.svg" height="20" width="20"><span>This is a Success Message</span></div><br>
+                    <div class="snackbar two_column left error"><img src="images/error-icon.svg" height="20" width="20"><span>This is an error Message</span></div>
+                    <div class="snackbar two_column left info" style="border:1px solid #00B9E1;color:#00B9E1;"><img src="images/info-icon.svg" height="20" width="20"><span>This is an Information Message</span></div><br>
+                    <div class="snackbar two_column left warning"><img src="images/warning-icon.svg" height="20" width="20"><span>This is a Warning Message</span></div>
+                    <div class="snackbar two_column left success"><img src="images/success-icon.svg" height="20" width="20"><span>This is a Success Message</span></div><br>
 
                     <h3>Call to action</h3>
-                    <button>Primary</button>
-                    <button>Secondary</button><br>
+                    <button class="btn1" >Primary</button>
+                    <button class="btn2">Secondary</button><br>
 
                     <h3>Tabs</h3>
-                    <ul>
-                        <li>Tab 1</li>
-                        <li>Tab 2</li>
-                        <li>Tab 3</li>
+                    <ul class="tab">
+                        <li><a href="">Tab 1</a></li>
+                        <li><a href="">Tab 2</a></li>
+                        <li><a href="">Tab 3</a></li>
                      </ul>
                         <hr>
-                        <!-- <div>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        <div class="tab1">  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div> --><!--<br>
-                         <div>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><br>
-                         <div>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div> -->
-                   
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div> 
 
                 </form>
-            
-        
         </div>
     </div>
 </body>
